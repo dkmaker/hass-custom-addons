@@ -2,7 +2,7 @@
 version: 3.9.1
 hassio_api: true
 slug: nginx_proxy_custom
-name: NGINX Home Assistant SSL proxy
+name: NGINX Home Assistant SSL proxy Custom
 description: An SSL/TLS proxy
 url: https://github.com/zenturacp/hass-custom-addons/tree/main/nginx_proxy
 arch:
