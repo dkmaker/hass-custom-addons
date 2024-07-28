@@ -4,7 +4,7 @@ hassio_api: true
 slug: nginx_proxy_custom
 name: NGINX Home Assistant SSL proxy
 description: An SSL/TLS proxy
-url: https://github.com/home-assistant/addons/tree/master/nginx_proxy
+url: https://github.com/zenturacp/hass-custom-addons/tree/main/nginx_proxy
 arch:
   - armhf
   - armv7
@@ -19,8 +19,8 @@ map:
 options:
   domain: null
   hsts: max-age=31536000; includeSubDomains
-  certfile: fullchain.pem
-  keyfile: privkey.pem
+  certfile: /homeassistant_config/.cloud/remote_fullchain.pem
+  keyfile: /homeassistant_config/.cloud/remote_private.pem
   cloudflare: false
   customize:
     active: false
