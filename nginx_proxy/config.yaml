@@ -19,8 +19,8 @@ map:
 options:
   domain: null
   hsts: max-age=31536000; includeSubDomains
-  certfile: /homeassistant_config/.cloud/remote_fullchain.pem
-  keyfile: /homeassistant_config/.cloud/remote_private.pem
+  certfile: /homeassistant/.cloud/remote_fullchain.pem
+  keyfile: /homeassistant/.cloud/remote_private.pem
   cloudflare: false
   customize:
     active: false
