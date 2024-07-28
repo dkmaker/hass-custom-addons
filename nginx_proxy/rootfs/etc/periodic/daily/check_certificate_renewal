@@ -5,8 +5,8 @@
 
 CERTFILE=$(bashio::config 'certfile')
 
-if [ ! -f /tmp/certificate_timestamp ] || [[ $(stat "/ssl/${CERTFILE}" -c %y) != $(cat /tmp/certificate_timestamp) ]]; then
+if [ ! -f /tmp/certificate_timestamp ] || [[ $(stat "${CERTFILE}" -c %y) != $(cat /tmp/certificate_timestamp) ]]; then
   bashio::log.info "Reloading nginx to reload new certificate file"
-  stat "/ssl/${CERTFILE}" -c %y > /tmp/certificate_timestamp
+  stat "${CERTFILE}" -c %y > /tmp/certificate_timestamp
   nginx -c /etc/nginx.conf -s reload
 fi

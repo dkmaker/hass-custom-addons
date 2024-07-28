@@ -51,11 +51,11 @@ The server's fully qualified domain name to use for the proxy.
 
 ### Option: `certfile` (required)
 
-The certificate file to use in the `/ssl` directory. Keep filename as-is if you used default settings to create the certificate with the [Duck DNS](https://github.com/home-assistant/addons/tree/master/duckdns) add-on.
+The certificate file to use. Keep filename as-is if you used default settings to create the certificate with the [Duck DNS](https://github.com/home-assistant/addons/tree/master/duckdns) add-on.
 
 ### Option: `keyfile` (required)
 
-Private key file to use in the `/ssl` directory.
+Private key file to use.
 
 ### Option: `hsts` (required)
 

@@ -10,10 +10,10 @@ configuration:
   certfile:
     name: Certificate File
     description: >-
-      The certificate file to use in the `/ssl` directory.
+      The certificate file to use.
   keyfile:
     name: Private Key File
-    description: Private Private Key File to use in the `/ssl` directory.
+    description: Private Private Key File to use.
   cloudflare:
     name: CloudFlare
     description: >-
