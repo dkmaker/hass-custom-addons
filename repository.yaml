@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: Home Assistant Custom Add-ons
-url: 'https://github.com/zenturacp/hass-custom-addons'
+url: 'https://github.com/dkmaker/hass-custom-addons'
 maintainer: Christian Pedersen <christian@dkmaker.xyz>
